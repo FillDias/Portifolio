@@ -11,11 +11,11 @@ const quicksand = Quicksand({
 
 export const Header = () => {
   return (
-    <header className={`${quicksand.className} bg-[#93946c] text-sm flex py-3 px-5 justify-between items-center static top-0 z-20`}>
+    <header className={`${quicksand.className} bg-[#2F4F4F] text-sm flex py-3 px-5 justify-between items-center static top-0 z-20`}>
       <Link href="/">
         <Image className="w-11 h-11" src={devs} alt="logo" />
       </Link>
-      <div className="hidden md:flex items-center gap-10 text-md">
+      <div className="hidden md:flex items-center gap-10 text-md text-white">
         <Link href="/">Sobre mim</Link>
         <Link href="/contact">Contatos</Link>
       </div>
