@@ -6,12 +6,15 @@ import { ProjetosGithub } from "@/components/Github";
 import Image from "next/image";
 import elleganza from "@/assets/imagens/elleganza.jpeg";
 import mercury from "@/assets/imagens/mercury.jpg" // Ajuste se necessário
-import { Dosis } from 'next/font/google'
 
-const dosis = Dosis({
+import { Quicksand } from 'next/font/google'
+
+const quicksand = Quicksand({
   subsets: ['latin'],
   weight: '500'
 })
+
+
 
 const projects = [
   {
@@ -31,15 +34,16 @@ const projects = [
 export default function Home() {
   return (
     <>
-      <div className={dosis.className}>
+      <div className={quicksand.className}>
         <title>Sobre mim / Felipe</title>
-        <meta name="description" content="Sou um desenvolvedor Front-end Jr, com muita vontade e determinação."/>
+        <meta name="description" content="Sou um desenvolvedor Front-end Jr, Busco uma oportunidade de estágio ou como desenvolvedor júnior em uma empresa que
+valorize o crescimento e o desenvolvimento profissional."/>
       </div>
       <Header />
-      <div className="py-12 px-6 md:px-32 space-y-10">
+      <div className={`${quicksand.className} py-12 px-6 md:px-32 space-y-10`}>
         <Capa />
         <section className="py-12">
-          <h2 className="text-3xl font-bold text-center mb-8">Meus Projetos</h2>
+          <h2 className={`${quicksand.className} text-3xl  text-center mb-8`}>Meus Projetos</h2>
           <div className="flex flex-wrap justify-center gap-8">
             {projects.map((project) => (
               <a

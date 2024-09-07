@@ -15,7 +15,8 @@ export const Capa = () => {
     </h1>
 
 <div className="mb-12">
-    <h2 className="mb-12 {quicksand.className}" >Sou um desenvolvedor Front-end Jr, com muita vontade e determinação</h2>
+    <h2 className="mb-12 {quicksand.className}" >Sou um desenvolvedor Front-end Jr, Busco uma oportunidade de estágio ou como desenvolvedor júnior em uma empresa que
+    valorize o crescimento e o desenvolvimento profissional.</h2>
     <Link href={"/contatos"} className="p-3 bg-slate-300 w-fit text-xl rounded-lg transition-all hover:bg-opacity-85">Converse comigo!</Link>
 </div>
 <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl">
