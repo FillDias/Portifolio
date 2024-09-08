@@ -21,7 +21,7 @@ const projects = [
     name: "E-comece Eleganza",
     description: "Uma aplicação de e-commerce com carrinho de compras, checkout e cálculo de frete.",
     image: elleganza, // Use uma imagem representativa para o projeto
-    url: "https://eleganza-ml76u8bnn-felipes-projects-9c1cec48.vercel.app/"
+    url: "https://eleganza-nu.vercel.app/"
   },
   {
     name: "Mercury Gold",
